@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule:Schedule xmlns:schedule="http://g5.1c.ru/v8/dt/schedule" beginDate="2025-07-10" endDate="2030-07-31" daysRepeatPeriod="1" beginTime="01:00:00" endTime="23:59:59" completionTime="23:59:59" repeatPeriodInDay="300" weeksPeriod="1">
+  <weekDays>Mon</weekDays>
+  <weekDays>Tue</weekDays>
+  <weekDays>Wed</weekDays>
+  <weekDays>Thu</weekDays>
+  <weekDays>Fri</weekDays>
+  <weekDays>Sat</weekDays>
+  <weekDays>Sun</weekDays>
+  <months>Jan</months>
+  <months>Feb</months>
+  <months>Mar</months>
+  <months>Apr</months>
+  <months>May</months>
+  <months>Jun</months>
+  <months>Jul</months>
+  <months>Aug</months>
+  <months>Sep</months>
+  <months>Oct</months>
+  <months>Nov</months>
+  <months>Dec</months>
+  <dailySchedules beginTime="01:00:00" endTime="23:59:59" completionTime="23:59:59" repeatPeriodInDay="300"/>
+</schedule:Schedule>

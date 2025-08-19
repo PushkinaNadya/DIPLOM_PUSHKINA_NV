@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="896459e9-6839-4de4-a69d-d2ab53eb417f">
+  <producedTypes>
+    <selectionType typeId="c114d0e4-1736-4afd-b575-ae47b32c9f50" valueTypeId="98291d15-dc43-4c55-9b12-09ad41ae9c42"/>
+    <listType typeId="afc56928-5c52-4cfd-a979-66b3d2503a85" valueTypeId="7e124a63-8de2-4c53-aefa-5ef93465fccc"/>
+    <managerType typeId="1addf0fc-7676-4460-8da9-1ab014104da4" valueTypeId="b68fd539-03be-4184-a1d8-5897564105e1"/>
+    <recordSetType typeId="02dbb80e-7426-4253-8282-16acde442208" valueTypeId="44dee148-22e1-4f90-b333-a456e650a1bc"/>
+    <recordKeyType typeId="1d678767-29f7-4d60-bf98-5bbb98f550a3" valueTypeId="3080a212-e270-4d77-b7b6-eef77e54c7ff"/>
+    <recordType typeId="6c7100e7-b691-4731-99af-7470d3697299" valueTypeId="eab37517-8a17-459b-91bf-e6e72f20e632"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="5062140c-2187-4875-b057-a8c7c65e18ce">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="90a1b258-fcfe-4df9-8b0d-5433d0f7cc27">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="303443cd-5c6b-481b-8f23-5bb5f9590d32">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
